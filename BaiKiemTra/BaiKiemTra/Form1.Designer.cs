@@ -56,9 +56,10 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(113, 212);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(70, 20);
+            this.label2.Size = new System.Drawing.Size(76, 20);
             this.label2.TabIndex = 0;
-            this.label2.Text = "Password";
+            this.label2.Text = "Passwords";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // txtpassword
             // 
